@@ -33,6 +33,14 @@ let i = 0; //variável indicativa
         console.log("A divisão é " + divisao); 
     }
    }
+
+   do{
+    text += "<br> Contando..." + i;
+    i++;
+   }
+   while (i < 10);
+
+
   
    
 
