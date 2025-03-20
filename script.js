@@ -12,19 +12,24 @@ let n2 =parseFloat (prompt  ("Digite o segundo numero")); //Número2
          console.log(numero + "é igual a impar."); 
      }
   }
- function calcular(n1,n2) {    //função n2
-    let soma = n1+n2;
-    let subtracao = n1-n2;
-    let multiplicacao = n1 * n2;
-    let divisao = n1 / n2;
+ function calcular(n1,n2) {    //função 2
+    const  soma = n1+n2;
+    const subtracao = n1-n2;
+    const multiplicacao = n1 * n2;
+    
 
     console.log("A soma é" + soma);
-    console.log("A subtração é" + subtração);
-    console.log("A multiplicação é" + mutiplicacao);
-    console.log("A divisão é" + divisao);
+    console.log("A subtração é " + subtracao);
+    console.log("A multiplicação é " + multiplicacao);
+    if { n2 === 0 ) {
+        console.log ("Naõ da pra dividir por zero");
+    }
+    } else  }
+        const divisao = n1 / n2;
+        console.log("A divisão é " + divisao); 
+    }
+   }
 
-
- }
  verificarPar(n1);
  calcular(n1,n2);
  
