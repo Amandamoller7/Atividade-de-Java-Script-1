@@ -3,6 +3,10 @@ console.log("hello World");
 //Variáveis
 let n1= parseFloat (prompt ("Digite seu numero")); //Número 1
 let n2 =parseFloat (prompt  ("Digite o segundo numero")); //Número2
+let text = ""; // variável texto 
+let i = 0; //variável indicativa  
+
+
 //Funções
  function verificarPar (n1){    //Função 1
     if (n1 % 2 === 0){ 
@@ -29,9 +33,8 @@ let n2 =parseFloat (prompt  ("Digite o segundo numero")); //Número2
         console.log("A divisão é " + divisao); 
     }
    }
-
-
-
+  
+   
 
    //chamar função 
  verificarPar(n1);
