@@ -21,15 +21,19 @@ let n2 =parseFloat (prompt  ("Digite o segundo numero")); //Número2
     console.log("A soma é" + soma);
     console.log("A subtração é " + subtracao);
     console.log("A multiplicação é " + multiplicacao);
-    if { n2 === 0 ) {
+    if  (n2 === 0 ) {
         console.log ("Naõ da pra dividir por zero");
-    }
-    } else  }
+
+    } else {
         const divisao = n1 / n2;
         console.log("A divisão é " + divisao); 
     }
    }
 
+
+
+
+   //chamar função 
  verificarPar(n1);
  calcular(n1,n2);
  
