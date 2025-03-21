@@ -38,7 +38,7 @@ let i = 10 //I é uma contadora, neste caso o valor dela é 10;
    }
    */
 //Atividade 3
-/*
+ /*
     while (i >= 1); {            //enquanto, condição ( contadora for maior que 1)      
         console. log ("contando..." + i);   //contando o número, (contando 1, contando 2)
         i--;   // O numero vai diminuindo 
@@ -55,6 +55,6 @@ let i = 10 //I é uma contadora, neste caso o valor dela é 10;
    
 
    //chamar função 
- verificarPar(n1);
- calcular(n1,n2);
+ //verificarPar(n1); 
+ //calcular(n1,n2);
  
