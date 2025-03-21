@@ -3,7 +3,10 @@ console.log("hello World");
 //Variáveis
 let n1= parseFloat (prompt ("Digite seu numero")); //Número 1;
 let n2 =parseFloat (prompt  ("Digite o segundo numero")); //Número2;
-let i = 10 //I é uma contadora, neste caso o valor dela é 10;
+let n = 10 //I é uma contadora, neste caso o valor dela é 10;
+let palavra = palavra.split ('') prompt ("Digirte uma palavra");//Utilização de slit para colocar as letras da palavra em uma "lista";
+let embaralhar = 
+
 
 
 
@@ -39,15 +42,17 @@ let i = 10 //I é uma contadora, neste caso o valor dela é 10;
    */
 //Atividade 3
  
-    while (i >= 1)
+    while (n >= 1)
      {            //enquanto, condição ( contadora for maior que 1)  
         do  {
-        console. log ("contando..." + i);   //contando o número, (contando 1, contando 2)
-        i--;   // O numero vai diminuindo 
-        } while (i >= 0); 
+        console. log ("contando..." + n);   //contando o número, (contando 1, contando 2)
+        n--;   // O numero vai diminuindo 
+        } while (n >= 0); 
     }
-
+//Atividade 4
+function intervirTexto (palavra)
     
+     
    
    
 
@@ -59,4 +64,4 @@ let i = 10 //I é uma contadora, neste caso o valor dela é 10;
    //chamar função 
  //verificarPar(n1); 
  //calcular(n1,n2);
- 
+ intervirTexto
