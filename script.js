@@ -53,13 +53,14 @@ let palavra = prompt ("Digite uma palavra");//guardar as palavras;
 
 //Atividade 4
     function inverterTexto (palavra) {
-        return palavra.split ('').reverse().join('');  
+        return palara.split ('').reverse().join('');  
     }
        
    
     
      
    
+    
    
 
 
