@@ -3,8 +3,8 @@ console.log("hello World");
 //Variáveis
 let n1= parseFloat (prompt ("Digite seu numero")); //Número 1;
 let n2 =parseFloat (prompt  ("Digite o segundo numero")); //Número2;
-let text = ""; // variável texto 
-let i = 0; //variável indicativa  
+let text = ""; // texto escrito  
+let i = 0; //variável indicativa (contadora) 
 
 
 //Funções
@@ -26,19 +26,20 @@ let i = 0; //variável indicativa
     console.log("A subtração é " + subtracao);
     console.log("A multiplicação é " + multiplicacao);
     if  (n2 === 0 ) {                                                   //Utilização de IF para caso o numero seja zero;
-        console.log ("Naõ da pra dividir por zero");
+        console.log ("Não da pra dividir por zero");
 
     } else {
         const divisao = n1 / n2;
         console.log("A divisão é " + divisao); 
     }
    }
-
-   do{
-    text += "<br> Contando..." + i;     //Utilização do enquanto, ao menos tentativa;
+   while (i < 10); {                  //enquanto, condição ( contadora for menor que 10)
+   do                               //Faça (comando)
+   console.log+= "<br> Contando..." + i;     //escrita no código;
     i++;
    }
-   while (i < 10); 
+    
+
 
 
 
