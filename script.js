@@ -4,8 +4,8 @@ console.log("hello World");
 let n1= parseFloat (prompt ("Digite seu numero")); //Número 1;
 let n2 =parseFloat (prompt  ("Digite o segundo numero")); //Número2;
 let n = 10 //I é uma contadora, neste caso o valor dela é 10;
-let palavra = palavra.split ('') prompt ("Digirte uma palavra");//Utilização de slit para colocar as letras da palavra em uma "lista";
-let embaralhar = 
+let palavra = prompt ("Digirte uma palavra");//guardar as palavras;
+
 
 
 
@@ -50,7 +50,11 @@ let embaralhar =
         } while (n >= 0); 
     }
 //Atividade 4
-function intervirTexto (palavra)
+    function inverterTexto (palavra) {
+        return palavra.split ('').reverse().join.('');
+      
+    }
+   
     
      
    
@@ -64,4 +68,4 @@ function intervirTexto (palavra)
    //chamar função 
  //verificarPar(n1); 
  //calcular(n1,n2);
- intervirTexto
+ inverterTexto
