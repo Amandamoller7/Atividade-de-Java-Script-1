@@ -50,10 +50,11 @@ let palavra = prompt ("Digirte uma palavra");//guardar as palavras;
         } while (n >= 0); 
     }
     */
+   
 //Atividade 4
     function inverterTexto (palavra) {
         return palavra.split ('').reverse().join('');
-      
+        console.log(palavra)
     }
    
     
