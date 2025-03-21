@@ -41,7 +41,7 @@ let palavra = prompt ("Digirte uma palavra");//guardar as palavras;
    }
    */
 //Atividade 3
- 
+ /*
     while (n >= 1)
      {            //enquanto, condição ( contadora for maior que 1)  
         do  {
@@ -49,9 +49,10 @@ let palavra = prompt ("Digirte uma palavra");//guardar as palavras;
         n--;   // O numero vai diminuindo 
         } while (n >= 0); 
     }
+    */
 //Atividade 4
     function inverterTexto (palavra) {
-        return palavra.split ('').reverse().join.('');
+        return palavra.split ('').reverse().join('');
       
     }
    
