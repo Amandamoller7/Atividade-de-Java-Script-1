@@ -4,7 +4,7 @@ console.log("hello World");
 let n1= parseFloat (prompt ("Digite seu numero")); //Número 1;
 let n2 =parseFloat (prompt  ("Digite o segundo numero")); //Número2;
 let n = 10 //I é uma contadora, neste caso o valor dela é 10;
-let palavra = prompt ("Digirte uma palavra");//guardar as palavras;
+let palavra = prompt ("Digite uma palavra");//guardar as palavras;
 
 
 
@@ -50,12 +50,12 @@ let palavra = prompt ("Digirte uma palavra");//guardar as palavras;
         } while (n >= 0); 
     }
     */
-   
+
 //Atividade 4
     function inverterTexto (palavra) {
-        return palavra.split ('').reverse().join('');
-        console.log(palavra)
+        return palavra.split ('').reverse().join('');  
     }
+       
    
     
      
