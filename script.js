@@ -3,7 +3,7 @@ console.log("hello World");
 //Variáveis
 let n1= parseFloat (prompt ("Digite seu numero")); //Número 1;
 let n2 =parseFloat (prompt  ("Digite o segundo numero")); //Número2;
-Let i = 10 //I é uma contadora, neste caso o valor dela é 10
+let i = 10 //I é uma contadora, neste caso o valor dela é 10;
 
 
 
@@ -34,10 +34,11 @@ Let i = 10 //I é uma contadora, neste caso o valor dela é 10
     }
    }
 //Atividade 3
-   while (i >= 1); {                  //enquanto, condição ( contadora for maior que 1)                             
-      console.log ("Contando.." + i)   //contando o número, (contando 1, contando 2)
-         i-- // O numero vai diminuindo 
-   
+    while (i >= 1); {            //enquanto, condição ( contadora for maior que 1)      
+        console. log ("contando..." + i);   //contando o número, (contando 1, contando 2)
+        i--;   // O numero vai diminuindo 
+
+    }
    }
     
    
