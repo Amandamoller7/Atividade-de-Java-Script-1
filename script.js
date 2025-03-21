@@ -3,12 +3,13 @@ console.log("hello World");
 //Variáveis
 let n1= parseFloat (prompt ("Digite seu numero")); //Número 1;
 let n2 =parseFloat (prompt  ("Digite o segundo numero")); //Número2;
-let text = ""; // texto escrito  
-let i = 0; //variável indicativa (contadora) 
+Let i = 10 //I é uma contadora, neste caso o valor dela é 10
+
 
 
 //Funções
- function verificarPar (n1){    //Função 1
+//Função 1
+ function verificarPar (n1){  
     if (n1 % 2 === 0){ 
           console.log(n1 + "é igual a par.");
  
@@ -16,12 +17,11 @@ let i = 0; //variável indicativa (contadora)
          console.log(n1 + "é igual a impar."); 
      }
   }
- function calcular(n1,n2) {    //função 2;
+//função 2
+ function calcular(n1,n2) {   
     const  soma = n1+n2;
     const subtracao = n1-n2;
     const multiplicacao = n1 * n2;
-    
-
     console.log("A soma é" + soma);
     console.log("A subtração é " + subtracao);
     console.log("A multiplicação é " + multiplicacao);
@@ -33,13 +33,15 @@ let i = 0; //variável indicativa (contadora)
         console.log("A divisão é " + divisao); 
     }
    }
-   while (i < 10); {                  //enquanto, condição ( contadora for menor que 10)
-   do                               //Faça (comando)
-   console.log+= "<br> Contando..." + i;     //escrita no código;
-    i++;
+//Atividade 3
+   while (i >= 1); {                  //enquanto, condição ( contadora for maior que 1)                             
+      console.log ("Contando.." + i)   //contando o número, (contando 1, contando 2)
+         i-- // O numero vai diminuindo 
+   
    }
     
-
+   
+   
 
 
 
