@@ -84,4 +84,4 @@ console.log(carro)
  //verificarPar(n1); 
  //calcular(n1,n2);
  //inverterTexto(palavra);
- contartexto(palavra);
+ //contartexto(palavra);
