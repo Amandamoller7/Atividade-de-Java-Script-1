@@ -56,7 +56,7 @@ let palavra = prompt ("Digite uma palavra");//guardar as palavras;
         return palavra.split ('').reverse().join('');  
     }
        
-   
+   //...
     
      
    
