@@ -1,18 +1,11 @@
 console.log("hello World");
 
-//Variáveis
-let n1= parseFloat (prompt ("Digite seu numero")); //Número 1;
-let n2 =parseFloat (prompt  ("Digite o segundo numero")); //Número2;
-let n = 10 //I é uma contadora, neste caso o valor dela é 10;
-let palavra = prompt ("Digite uma palavra");//guardar as palavras;
 
-
-
-
-
-//Funções
-//Função 1
+//Funções;
+//Função 1;
 /*
+let n1= parseFloat (prompt ("Digite seu numero")); //Número 1;
+
  function verificarPar (n1){  
     if (n1 % 2 === 0){ 
           console.log(n1 + "é igual a par.");
@@ -23,7 +16,9 @@ let palavra = prompt ("Digite uma palavra");//guardar as palavras;
   }
   */
  /*
-//função 2
+//função 2;
+let n1= parseFloat (prompt ("Digite seu numero")); //Número 1;
+let n2 =parseFloat (prompt  ("Digite o segundo numero")); //Número2;
  function calcular(n1,n2) {   
     const  soma = n1+n2;
     const subtracao = n1-n2;
@@ -40,8 +35,9 @@ let palavra = prompt ("Digite uma palavra");//guardar as palavras;
     }
    }
    */
-//Atividade 3
+//Atividade 3;
  /*
+ let n = 10 //I é uma contadora, neste caso o valor dela é 10;
     while (n >= 1)
      {            //enquanto, condição ( contadora for maior que 1)  
         do  {
@@ -51,12 +47,20 @@ let palavra = prompt ("Digite uma palavra");//guardar as palavras;
     }
     */
 
-//Atividade 4
-    function inverterTexto (palavra) {
+//Atividade 4;
+   /* 
+   let palavra = prompt ("Digite uma palavra");//guardar as palavras;
+   //  function inverterTexto (palavra) {
         return palavra.split ('').reverse().join('');  
     }
-       
-   //...
+    */
+//Atividade 5 ;
+let nletras; // variável para contar caracteres 
+let palavra = prompt ("digite uma palavra")//variável paara guardar palavra
+  function contartexto(palavra){
+    return palavra.split('');
+    for 
+  }
     
      
    
@@ -71,4 +75,4 @@ let palavra = prompt ("Digite uma palavra");//guardar as palavras;
    //chamar função 
  //verificarPar(n1); 
  //calcular(n1,n2);
- inverterTexto
+ //inverterTexto;
