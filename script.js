@@ -73,8 +73,9 @@ const carro = {          //declarando um objeto.
     
 };
 
-console.log(carro)
-   
+
+console.log('O carro é da ' +carro.marca + ' Modelo '+ carro.modelo + ' lançado no ano '+ carro.ano)
+
 
    
 
