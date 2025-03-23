@@ -65,7 +65,7 @@ let palavra = prompt ("digite uma palavra")//variável paara guardar palavra
     */
 
 //Atividade 6
- 
+ /*
 const carro = {          //declarando um objeto.
     marca:'Volkswargen ',
     modelo:'Esmerald',                                   //preenchendo com os dados do novo fusca 2025
@@ -75,9 +75,19 @@ const carro = {          //declarando um objeto.
 
 
 console.log('O carro é da ' +carro.marca + ' Modelo '+ carro.modelo + ' lançado no ano '+ carro.ano)
+ */
+
+//Atividade 7;
+/*
+let mensagem= 'Olá!';
+let nome =  prompt ("Qual é o seu nome?");
+function mensagemPersonalizada(nome,mensagem ){
+    console.log(mensagem + nome);
 
 
-   
+
+}
+*/ 
 
 
 
@@ -86,3 +96,4 @@ console.log('O carro é da ' +carro.marca + ' Modelo '+ carro.modelo + ' lançad
  //calcular(n1,n2);
  //inverterTexto(palavra);
  //contartexto(palavra);
+//mensagemPersonalizada(nome,mensagem);
