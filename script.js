@@ -56,13 +56,24 @@ let n2 =parseFloat (prompt  ("Digite o segundo numero")); //Número2;
     */
 //Atividade 5 ;
  // variável para contar caracteres 
+ /*
 let palavra = prompt ("digite uma palavra")//variável paara guardar palavra
   function contartexto(palavra){
    let nletras=palavra.length   // variável para contar caracteres                          //usando uma "palavra-chave" que conta strings;
     console.log (nletras);
   }
-    
+    */
+
+//Atividade 6
+ 
+let carro = prompt(digite o seu carro){
+    marca:'',
+    modelo:'',
+    ano :'';
      
+    console.log(carro)
+
+}
    
 
    
