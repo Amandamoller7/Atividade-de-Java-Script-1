@@ -89,9 +89,9 @@ function mensagemPersonalizada(nome,mensagem ){
 }
 */ 
 // Atividade 8.
-let n1 = prompt ("Digite um numero");  
-let n2 = prompt ("Digite o segundo numero");
-let n3 = prompt ("Digite o terceiro");
+let n1 =  parseFloat( prompt ("Digite um numero"));  
+let n2 = parseFloat(prompt ("Digite o segundo numero"));
+let n3 = parseFloat(prompt ("Digite o terceiro"));
                                     
  function mediatotal(n1, n2, n3){
     const media=  (n1+n2+n3) /3                          //Criando uma variavel que vai somar todos os numeros e subtrair para criar uma média.
