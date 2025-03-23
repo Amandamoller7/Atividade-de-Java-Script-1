@@ -55,11 +55,11 @@ let n2 =parseFloat (prompt  ("Digite o segundo numero")); //Número2;
     }
     */
 //Atividade 5 ;
-let nletras; // variável para contar caracteres 
+ // variável para contar caracteres 
 let palavra = prompt ("digite uma palavra")//variável paara guardar palavra
   function contartexto(palavra){
-    return palavra.split('');
-    for palavra.split
+   let nletras=palavra.length   // variável para contar caracteres                          //usando uma "palavra-chave" que conta strings;
+    console.log (nletras);
   }
     
      
@@ -69,10 +69,8 @@ let palavra = prompt ("digite uma palavra")//variável paara guardar palavra
 
 
 
-  
-   
-
-   //chamar função 
+//chamar função 
  //verificarPar(n1); 
  //calcular(n1,n2);
- //inverterTexto;
+ //inverterTexto(palavra);
+ contartexto(palavra);
