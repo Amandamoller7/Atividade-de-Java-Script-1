@@ -66,14 +66,14 @@ let palavra = prompt ("digite uma palavra")//variável paara guardar palavra
 
 //Atividade 6
  
-let carro = prompt(digite o seu carro){
-    marca:'',
-    modelo:'',
-    ano :'';
-     
-    console.log(carro)
+const carro = {          //declarando um objeto.
+    marca:'Volkswargen ',
+    modelo:'Esmerald',                                   //preenchendo com os dados do novo fusca 2025
+    ano :'2025'
+    
+};
 
-}
+console.log(carro)
    
 
    
