@@ -59,7 +59,7 @@ let nletras; // variável para contar caracteres
 let palavra = prompt ("digite uma palavra")//variável paara guardar palavra
   function contartexto(palavra){
     return palavra.split('');
-    for 
+    for palavra.split
   }
     
      
