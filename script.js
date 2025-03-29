@@ -100,6 +100,30 @@ let n3 = parseFloat(prompt ("Digite o terceiro"));
  }
 */
 
+// Atividade 9
+let i = 20 // variável indicadora 
+for (;i > 0;){
+    i--;
+    if ( i%3 == 0) {
+        console.log("Esse número aqui é divisível por 3")
+    } else {
+    console.log ("Esse número não é divisível por 3" );
+}
+} 
+
+
+
+let n = 10 //I é uma contadora, neste caso o valor dela é 10;
+    while (n >= 1)
+     {            //enquanto, condição ( contadora for maior que 1)  
+        do  {
+        console. log ("contando..." + n);   //contando o número, (contando 1, contando 2)
+        n--;   // O numero vai diminuindo 
+        } while (n >= 0); 
+    }
+
+
+
 //chamar função 
  //verificarPar(n1); 
  //calcular(n1,n2);
