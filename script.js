@@ -89,6 +89,7 @@ function mensagemPersonalizada(nome,mensagem ){
 }
 */ 
 // Atividade 8.
+/*
 let n1 =  parseFloat( prompt ("Digite um numero"));  
 let n2 = parseFloat(prompt ("Digite o segundo numero"));
 let n3 = parseFloat(prompt ("Digite o terceiro"));
@@ -97,8 +98,7 @@ let n3 = parseFloat(prompt ("Digite o terceiro"));
     const media=((n1+n2+n3)/3)  //Criando uma variavel que vai somar todos os numeros e subtrair para criar uma média.
     console.log("A média é " + media);
  }
-
-
+*/
 
 //chamar função 
  //verificarPar(n1); 
@@ -106,4 +106,4 @@ let n3 = parseFloat(prompt ("Digite o terceiro"));
  //inverterTexto(palavra);
  //contartexto(palavra);
 //mensagemPersonalizada(nome,mensagem);
-mediatotal(n1,n2,n3);
+//mediatotal(n1,n2,n3);
