@@ -94,7 +94,7 @@ let n2 = parseFloat(prompt ("Digite o segundo numero"));
 let n3 = parseFloat(prompt ("Digite o terceiro"));
                                     
  function mediatotal(n1, n2, n3){
-    const media=  (n1+n2+n3) /3                          //Criando uma variavel que vai somar todos os numeros e subtrair para criar uma média.
+    const media=  ((n1+n2+n3) /3),                          //Criando uma variavel que vai somar todos os numeros e subtrair para criar uma média.
     console.log = (media);
  }
 
