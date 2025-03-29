@@ -102,12 +102,12 @@ let n3 = parseFloat(prompt ("Digite o terceiro"));
 
 // Atividade 9
 let i = 20 // variável indicadora 
-for (;i > 0;){
+for (;i > 0;){   //para numero maior que zero faça
     i--;
     if ( i%3 == 0) {
-        console.log("Esse número aqui é divisível por 3")
+        console.log( i + "Esse número aqui é divisível por 3")
     } else {
-    console.log ("Esse número não é divisível por 3" );
+    console.log (i + "Esse número não é divisível por 3" );
 }
 } 
 
