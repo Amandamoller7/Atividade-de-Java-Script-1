@@ -105,9 +105,12 @@ let i = 20 // variável indicadora
 for (;i > 0;){   //para numero maior que zero faça
     i--;
     if ( i%3 == 0) {
-        console.log( i + " Esse número aqui é divisível por 3")
+        console.log( i + " Esse número aqui é múltiplo por 3")
+        if (i === 0){
+            console.log(" Esse número não é multiplo de 3")
+        }
     } else {
-    console.log (i + " Esse número não é divisível por 3" );
+    console.log (i + " Esse número não é multiplo por 3" );
 }
 } 
 
