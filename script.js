@@ -105,9 +105,9 @@ let i = 20 // variável indicadora
 for (;i > 0;){   //para numero maior que zero faça
     i--;
     if ( i%3 == 0) {
-        console.log( i + "Esse número aqui é divisível por 3")
+        console.log( i + " Esse número aqui é divisível por 3")
     } else {
-    console.log (i + "Esse número não é divisível por 3" );
+    console.log (i + " Esse número não é divisível por 3" );
 }
 } 
 
