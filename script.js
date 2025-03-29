@@ -113,17 +113,6 @@ for (;i > 0;){   //para numero maior que zero faça
 
 
 
-let n = 10 //I é uma contadora, neste caso o valor dela é 10;
-    while (n >= 1)
-     {            //enquanto, condição ( contadora for maior que 1)  
-        do  {
-        console. log ("contando..." + n);   //contando o número, (contando 1, contando 2)
-        n--;   // O numero vai diminuindo 
-        } while (n >= 0); 
-    }
-
-
-
 //chamar função 
  //verificarPar(n1); 
  //calcular(n1,n2);
