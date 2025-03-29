@@ -103,15 +103,14 @@ let n3 = parseFloat(prompt ("Digite o terceiro"));
 // Atividade 9
 let i = 20 // variável indicadora 
 for (;i > 0;){   //para numero maior que zero faça
-    i--;
-    if ( i%3 == 0) {
-        if (i === 0){
-            console.log(i + " Esse número não é multiplo de 3");
-        }else{
+    if ( i%3 == 0) {           //se esse número for divisivel (igual a zero) então
+        if (i === 0){              //se o número for 0 é igual, ele não pode ser divisivel por 3
+            console.log(i + " Esse número não é multiplo de 3");     
+        }else{                       // caso o número não seja zero
             console.log( i + " Esse número aqui é múltiplo por 3");
         }
     } else {
-    console.log (i + " Esse número não é multiplo por 3" );
+    console.log (i + " Esse número não é multiplo por 3" );     //caso o número não seja divisivel por 3
 }
 } 
 
