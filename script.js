@@ -101,6 +101,7 @@ let n3 = parseFloat(prompt ("Digite o terceiro"));
 */
 
 // Atividade 9
+/*
 let i = 21 // variável indicadora 
 for (;i > 0;){   //para numero maior que zero 
     i--;    // Fechando o código
@@ -113,8 +114,21 @@ for (;i > 0;){   //para numero maior que zero
     } else {
     console.log (i + " Esse número não é multiplo por 3" );     //caso o número não seja divisivel por 3
 }
-} 
+} */
 
+//Atividade 10
+/*let string = prompt('Digite uma palavra: ')
+
+function verificarPalindromo (string) {
+    let reverse = string.split('').reverse('').join('');
+    if (string === reverse) {
+        console.log('Essa palavra é um Palíndromo');
+    }else {
+        console.log('Essa palavra não é um Palíndromo');
+    }
+}
+
+*/
 
 
 //chamar função 
@@ -124,3 +138,4 @@ for (;i > 0;){   //para numero maior que zero
  //contartexto(palavra);
 //mensagemPersonalizada(nome,mensagem);
 //mediatotal(n1,n2,n3);
+//verificarPalindromo (string);
